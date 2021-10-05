@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="index4.css">
+</head>
+<body>
+    <section>
+    <div>
+        <h1>Расчёт ВВП</h1>
+        <p>ВВП = С + I + G + Xn, где</p>
+        <p>С – личные потребительские расходы;<br> 
+            I – валовые частные внутренние инвестиции;<br>  
+            G – государственные закупки товаров и услуг;<br>
+            Xn - чистый экспорт (разница между экспортом и импортом)<br>
+        </p>
+    </div>
+
+    <div>
+        <p class="input">C: <input type="text" id="C"></p>
+        <p class="input">I: <input type="text" id="I"></p>
+        <p class="input">G: <input type="text" id="G"></p>
+        <p class="input">Xn: <input type="text" id="Xn"></p>
+    </div>
+
+    <div>
+        <button id="send">Вычислить</button>
+        <h2>ВВП:</h2>
+        <p id="res"></p>
+    </div>
+    <script src = "index4.js"></script>
+    </section>
+</body>
+</html>
